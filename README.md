@@ -21,7 +21,7 @@ Reviewers (Mentor/Peers): Use these links to compare the functionality and layou
 ### 💻 Live Site & Repository Details
 
 * **Live Project URL (GitHub Pages):**
-    https://github.com/Ivangabriel06/MO-IT161---Web-Systems-and-Technology/edit/main/README.md
+    https://ivangabriel06.github.io/MO-IT161---Web-Systems-and-Technology/
   
 * **Project Requirements Document:**
     [Insert link to your project requirements document]
