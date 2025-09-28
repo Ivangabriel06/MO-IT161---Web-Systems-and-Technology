@@ -29,8 +29,31 @@ Reviewers (Mentor/Peers): Use these links to compare the functionality and layou
 * **Project Plan (Timeline): The development timeline and solo roles are detailed in the **Development Timeline** section below.
 
 
+### 📋 Project Scope
+
+This project's primary goal is to create a **responsive, mobile-first dashboard** for a pet management application ("Elijah"). The scope for this HTML/CSS Milestone (MS1) included building the structure and styling for the following key sections, based entirely on the linked Figma design:
+
+1.  Top Profile Header & Action Bar.
+2.  Recommended Products Section (including product cards and tabs).
+3.  Health Metrics Section (three-column responsive layout).
+4.  Reviews/Testimonials Section.
+
+---
+
+### 🗓️ Development Timeline
+
+This project was completed by a sole contributor (Ivan Gabriel Abrera), who assumed all roles (Designer, Front-end Developer, QA Tester).
+
+* **HTML Structure (Day 1):** Built all semantic elements and created the basic file structure.
+* **CSS Layout & Styling (Day 2-3):** Implemented Flexbox and CSS Grid to match the Figma mobile layout, ensuring all components are styled correctly.
+* **Finalization & Git Upload (Day 3):** Tested responsiveness and successfully pushed final code via Git Bash.
+
 ---
 
 ### 📂 Repository Structure
 
 The code is organized as follows:
+MO-IT161---Web-Systems-and-Technology/
+├── index.html       (The main dashboard page structure)
+├── styles/          (Contains the style.css file)
+└── scripts/         (Placeholder for future JavaScript code)
