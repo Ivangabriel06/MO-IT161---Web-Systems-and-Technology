@@ -1,0 +1,163 @@
+/* --- CSS RESET: Essential for browser consistency --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- GLOBAL STYLES & MOBILE SETUP --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light background from your design */
+    color: #333;
+    /* Centers the mobile content */
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard-container {
+    width: 100%;
+    max-width: 450px; /* Constrains the template to a typical mobile width */
+    padding: 20px;
+    background-color: #fff;
+    /* Mimics the visual boundary of a mobile screen/app */
+    min-height: 100vh; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+h2.section-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* --- 1. PROFILE HEADER --- */
+.profile-header {
+    /* Uses FLEXBOX for horizontal alignment */
+    display: flex;
+    justify-content: space-between; /* Pushes user-info left, icons right */
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.user-info p {
+    line-height: 1.2;
+}
+
+/* --- 2. PRIMARY ACTION ICONS/TABS --- */
+.main-actions {
+    /* Uses FLEXBOX to lay out the 4 items horizontally */
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+
+.action-item {
+    /* Ensures each item takes an equal, proportional share of space */
+    width: 23%; 
+    padding: 10px 0;
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+    font-size: 0.85em;
+}
+
+/* --- 3. RECOMMENDED PRODUCTS --- */
+.product-tabs {
+    display: flex;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.tab {
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.tab.active {
+    background-color: #007bff; /* Primary selection color */
+    color: #fff;
+}
+
+.product-grid {
+    /* Uses FLEXBOX for 2-column layout */
+    display: flex;
+    gap: 15px;
+}
+
+.product-card {
+    flex: 1; /* Makes both cards equal width */
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.prod-img-placeholder {
+    height: 80px;
+    background-color: #e9e9e9;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* --- 4. HEALTH METRICS (Grid) --- */
+.metrics-grid {
+    /* Uses GRID for 3-column layout */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 10px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.metric-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.metric-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.metric-change {
+    color: green; 
+    font-size: 0.8em;
+}
+
+/* --- 5. REVIEWS --- */
+.reviews-container {
+    /* Uses FLEXBOX for 2-column layout */
+    display: flex;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.review-card {
+    flex: 1; /* Makes both cards equal width */
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
+
+/* --- RESPONSIVENESS (Though designed for mobile, this ensures a max width) --- */
+@media (max-width: 450px) {
+    .dashboard-container {
+        /* Removes side padding when screen is very small */
+        padding: 10px; 
+    }
+}
