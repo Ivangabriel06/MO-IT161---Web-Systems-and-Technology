@@ -11,7 +11,7 @@ This repository contains the HTML and CSS template for our web development proje
 Reviewers (Mentor/Peers): Use these links to compare the functionality and layout of the live site against the intended design.
 
 * **Figma Design & Wireframes:**
-    https://www.figma.com/design/T755RuVoZTgpcNF3XtM61q/MO-IT161---Web-Systems-and-Technology--S3101?node-id=0-1&t=cvFwPnsE7iy89a8x-1
+    https://www.figma.com/proto/T755RuVoZTgpcNF3XtM61q/MO-IT161---Web-Systems-and-Technology--S3101?node-id=1-2&p=f&t=cvFwPnsE7iy89a8x-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
 
 * **Interactive Prototype Flow:**
     https://www.figma.com/proto/T755RuVoZTgpcNF3XtM61q/MO-IT161---Web-Systems-and-Technology--S3101?node-id=1-2&p=f&t=cvFwPnsE7iy89a8x-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
