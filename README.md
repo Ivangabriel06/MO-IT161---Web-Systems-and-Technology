@@ -23,11 +23,11 @@ Reviewers (Mentor/Peers): Use these links to compare the functionality and layou
 * **Live Project URL (GitHub Pages):**
     https://ivangabriel06.github.io/MO-IT161---Web-Systems-and-Technology/
   
-* **Project Requirements Document:**
-    [Insert link to your project requirements document]
+* **Project Requirements Document: The requirements and scope are detailed in the **Project Scope** section below.
 
-* **Project Plan (Timeline):**
-    [Insert link to your updated project plan]
+
+* **Project Plan (Timeline): The development timeline and solo roles are detailed in the **Development Timeline** section below.
+
 
 ---
 
